@@ -1,0 +1,62 @@
+
+*{ 
+    margin: 0 ;
+    padding: 0;        
+    box-sizing: border-box;    
+}
+
+.bg{
+    background-image: url("photodonation.jpg");
+
+    /* Full height */
+    height: 450px; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+}
+
+.footer{
+    position: fixed;
+    left:0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    font-size: 0.8rem;
+    color: white;
+    padding-top: 7px;
+}
+.contain{
+    position: absolute;
+    left: auto;
+    top: 150px;
+   
+    opacity: 0.9; 
+
+    text-align: center;
+    font-size:1.2rem;
+    color: rgb(243, 228, 18);
+    padding-top: 7px;
+
+}
+
+#btn{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+     
+   
+    
+    border: none;
+    cursor: pointer;
+   
+}
+
+
+
+
